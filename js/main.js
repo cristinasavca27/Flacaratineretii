@@ -1,4 +1,6 @@
-
+function show() {
+    document.getElementById("side-menu").classList.toggle("show");
+}
 
 function sendEmail() {
     var nume=document.getElementById("nume").value;
